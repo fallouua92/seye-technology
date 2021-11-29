@@ -23,6 +23,7 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $address = $_POST["address"];
 
+
 $sql = "INSERT INTO details(name, Email, Address) VALUES ('$name', '$email', '$address')";
 if(!mysqli_query($connection, $sql)){
     die("Error:".mysqli_error($connection));
