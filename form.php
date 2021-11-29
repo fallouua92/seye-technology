@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>My first PHP Form</title>
+        <title>The PHP Form</title>
         <style>
             body {
                 background-color: lightgrey;
