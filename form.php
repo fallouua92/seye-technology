@@ -22,7 +22,7 @@
         </style>
     </head>
     <body>
-        <h1>My Form to Submit personal details</h1>
+        <h1>My Form Here is where you have to submit your detalis</h1>
         <form action="demo_backend.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>
         <div class= "form_email">E-mail: <input type="text" name="email"><br></div>
