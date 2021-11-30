@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Backend Website</title>
+    <title>The Block two</title>
     <!--This is my bootstrap with CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--This is my JavaScript link-->
@@ -19,7 +19,7 @@
     
     <div class="row">
         <div class="col d-flex justify-content-center">
-            <h1>Pet Website</h1>
+            <h1>The Backend Website</h1>
     </div>
     <div>
         <!--another row and column for the navbar-->
@@ -27,22 +27,19 @@
         <div class="col-lg">
             <ul class="nav nav-tabs justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home Page</a>
+                  <a class="nav-link active" href="index.php">Home Page</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="dogs.html">dogs</a>
+                  <a class="nav-link" href="astronaut_form.php">Astronaut form</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cats.html">Cats</a>
+                    <a class="nav-link" href="attends_form.php">Attends form</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pets.html">Pets Products</a>
+                  <a class="nav-link" href="mission_form.php">Mission form</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="shoppingcart/cart.html">Shopping Cart</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                  <a class="nav-link" href="targets_form.php">Targets form</a>
                 </li>
                 
               </ul>
