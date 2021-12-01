@@ -37,7 +37,7 @@
     
     <div class="row">
         <div class="col d-flex justify-content-center">
-            <h1>This is the information form</h1>
+            <h1>This is the Backend PHP</h1>
     </div>
     <div>
         <!--another row and column for the navbar-->
@@ -59,6 +59,8 @@
                 
               </ul>
         </div>
+
+        <h1>This is the information form</h1>
         <form action="demo_backend.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>
         <div class= "form_email">E-mail: <input type="text" name="email"><br></div>
