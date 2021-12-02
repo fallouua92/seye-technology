@@ -59,6 +59,7 @@
               </ul>
         </div>   
         <h1>The targets form</h1>
+          <!-- This is the form that I have created for submiting details-->
         <form action="demo_backend.php" method="POST">
         <div class= "form_id_name">id_name: <input type="integer" name="id_name"><br></div>
         <div class= "form_first_mission">first_mission: <input type="date" name="first_mission"><br></div>

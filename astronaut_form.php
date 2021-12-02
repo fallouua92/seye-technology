@@ -58,8 +58,10 @@
                 </li>
                 
               </ul>
+            
         </div>  
         <h1>The Astronaut form</h1>
+          <!-- This is the form that I have created to submit details -->
         <form action="demo_backend.php" method="POST">
         <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
         <div class= "form_name">name: <input type="text" name="name"><br></div>
