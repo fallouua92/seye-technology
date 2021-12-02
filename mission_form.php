@@ -63,8 +63,11 @@
         <h1>The Missions form</h1>
         <form action="demo_backend.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>
-        <div class= "form_email">E-mail: <input type="text" name="email"><br></div>
-        <div class= "form_address">Address: <input type="text" name="address"><br></div>
+        <div class= "form_destination">destination: <input type="text" name="destination"><br></div>
+        <div class= "form_launch_date">launch_date: <input type="date" name="launch_date"><br></div>
+        <div class= "form_type">type: <input type="text" name="type"><br></div>
+        <div class= "form_crew_size">crew_size: <input type="number" name="crew_size"><br></div>
+        <div class= "form_target_id">target_id: <input type="integer" name="target_id"><br></div>
          <div class= "sub_button"><input type="submit"></div>
         </form>
     </body>
