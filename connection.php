@@ -9,9 +9,6 @@ $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
 if (!$connection) {
     die('Could not connect:'. mysqli_error($connection));
 }
-else {
-    echo "It worked!";
-}
 
 $db_selected = mysqli_select_db($connection, DB_NAME);
 
