@@ -19,7 +19,7 @@
     
     <div class="row">
         <div class="col d-flex justify-content-center">
-            <h1>The Backend Website</h1>
+            <h1>This is the Backend development</h1>
     </div>
     <div>
         <!--another row and column for the navbar-->
