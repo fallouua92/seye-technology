@@ -60,9 +60,10 @@
         </div>   
         <h1>The targets form</h1>
         <form action="demo_backend.php" method="POST">
-        <div class= "form_name">Name: <input type="text" name="name"><br></div>
-        <div class= "form_email">E-mail: <input type="text" name="email"><br></div>
-        <div class= "form_address">Address: <input type="text" name="address"><br></div>
+        <div class= "form_id_name">id_name: <input type="integer" name="id_name"><br></div>
+        <div class= "form_first_mission">first_mission: <input type="date" name="first_mission"><br></div>
+        <div class= "form_type">type: <input type="text" name="type"><br></div>
+        <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
          <div class= "sub_button"><input type="submit"></div>
         </form>
     </body>
