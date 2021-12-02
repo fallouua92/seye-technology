@@ -37,7 +37,7 @@
     
     <div class="row">
         <div class="col d-flex justify-content-center">
-            <h1>This is the Backend PHP</h1>
+            <h1>This is the Backend </h1>
     </div>
     <div>
         <!--another row and column for the navbar-->
