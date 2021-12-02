@@ -1,3 +1,24 @@
+<?php
+include "connection.php";
+$submitbutton= $_POST['submitbutton'];
+
+if ($submitbutton){
+  $mission_name = $_POST["mission_name"];
+  $no_missions = $_POST["no_missions"];
+  $id = $_POST["astronaut_id"];
+
+
+  $sql = "INSERT INTO attends (mission_name, no_missions, astronaut_id) VALUES ($mission_name, '$no_missions', $astronaut_id)";
+
+  if(!mysqli_query($connection, $sql)){
+      die("Error:".mysqli_error($connection));
+  }
+  else{
+      echo "Data Inserted";
+  }
+}
+?>
+
 <!doctype html>
 <html>
     <head>
