@@ -59,7 +59,7 @@
                 
               </ul>
         </div>   
-        <h1>This is the information form</h1>
+        <h1>This Attends form</h1>
         <form action="demo_backend.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>
         <div class= "form_email">E-mail: <input type="text" name="email"><br></div>
