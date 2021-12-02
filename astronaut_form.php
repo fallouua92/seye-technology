@@ -59,7 +59,7 @@
                 
               </ul>
         </div>  
-        <h1>This is the information form</h1>
+        <h1>The Astronaut form</h1>
         <form action="demo_backend.php" method="POST">
         astronaut_id: <input type="text" name="astronaut_id"><br></div>
         name: <input type="text" name="name"><br></div>
