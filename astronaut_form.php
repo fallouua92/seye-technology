@@ -1,3 +1,23 @@
+<?php
+include "connection.php";
+
+if ($_POST['submit']){
+  $id = $_POST["astronaut_id"];
+  $name = $_POST["name"];
+  $no_missions = $_POST["no_missions"];
+
+
+  $sql = "INSERT INTO astronaut(astronaut_id, name, no_missions) VALUES ($id, '$name', $no_missions)";
+
+  if(!mysqli_query($connection, $sql)){
+      die("Error:".mysqli_error($connection));
+  }
+  else{
+      echo "Data Inserted";
+  }
+}
+?>
+
 <!doctype html>
 <html>
     <head>
@@ -40,7 +60,7 @@
             <h1>This is the Backend development Website</h1>
     </div>
     <div>
-        <!--another row and column for the navbar-->
+       <!--A navbar has been created here-->
     <div class="row">
         <div class="col-lg">
             <ul class="nav nav-tabs justify-content-center">
@@ -62,7 +82,7 @@
         </div>  
         <h1>The Astronaut form</h1>
           <!-- This is the form that I have created to submit details -->
-        <form action="demo_backend.php" method="POST">
+        <form action="" method="POST">
         <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
         <div class= "form_name">name: <input type="text" name="name"><br></div>
         <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>

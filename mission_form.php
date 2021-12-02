@@ -40,7 +40,7 @@
             <h1>This is the Backend development Website</h1>
     </div>
     <div>
-        <!--another row and column for the navbar-->
+      <!--A navbar has been created here-->
     <div class="row">
         <div class="col-lg">
             <ul class="nav nav-tabs justify-content-center">
