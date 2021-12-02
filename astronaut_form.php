@@ -61,9 +61,9 @@
         </div>  
         <h1>The Astronaut form</h1>
         <form action="demo_backend.php" method="POST">
-        astronaut_id: <input type="text" name="astronaut_id"><br></div>
-        name: <input type="text" name="name"><br></div>
-        no_missions: <input type="integers" name="no_missions"><br></div>
+        <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
+        <div class= "form_name">name: <input type="text" name="name"><br></div>
+        <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
          <div class= "sub_button"><input type="submit"></div>
         </form>
     </body>
