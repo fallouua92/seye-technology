@@ -1,7 +1,8 @@
 <?php
 include "connection.php";
+$submitbutton= $_POST['submitbutton'];
 
-if ($_POST['submit']){
+if ($submitbutton){
   $id = $_POST["astronaut_id"];
   $name = $_POST["name"];
   $no_missions = $_POST["no_missions"];
@@ -86,7 +87,7 @@ if ($_POST['submit']){
         <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
         <div class= "form_name">name: <input type="text" name="name"><br></div>
         <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
-         <div class= "sub_button"><input type="submit"></div>
+         <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
         </form>
     </body>
 </html> 
