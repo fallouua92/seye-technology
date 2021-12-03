@@ -82,7 +82,7 @@ if ($submitbutton){
         </div>   
         <h1>This Attends form</h1>
           <!-- This is the form that I have created here  -->
-        <form action="demo_backend.php" method="POST">
+        <form action="" method="POST">
         <div class= "form_mission_name">mission_name: <input type="text" name="name"><br></div>
         <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
         <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
