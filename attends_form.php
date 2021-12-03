@@ -4,11 +4,10 @@ $submitbutton= $_POST['submitbutton'];
 
 if ($submitbutton){
   $mission_name = $_POST["mission_name"];
-  $no_missions = $_POST["no_missions"];
   $id = $_POST["astronaut_id"];
 
 
-  $sql = "INSERT INTO attends(mission_name, no_missions, astronaut_id) VALUES ($mission_name, '$no_missions', $id)";
+  $sql = "INSERT INTO attends(mission_name, no_missions, astronaut_id) VALUES ($mission_name', $id)";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
@@ -84,7 +83,6 @@ if ($submitbutton){
           <!-- This is the form that I have created here  -->
         <form action="" method="POST">
         <div class= "form_mission_name">mission_name: <input type="text" name="name"><br></div>
-        <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
         <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
          <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
         </form>
