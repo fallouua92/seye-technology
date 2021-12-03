@@ -7,7 +7,7 @@ if ($submitbutton){
   $id = $_POST["astronaut_id"];
 
 
-  $sql = "INSERT INTO attends(mission_name, no_missions, astronaut_id) VALUES ('$mission_name', $id)";
+  $sql = "INSERT INTO attends(mission_name, astronaut_id) VALUES ('$mission_name', $id)";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
