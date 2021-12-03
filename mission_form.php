@@ -1,7 +1,28 @@
+<?php
+include "connection.php";
+$submitbutton= $_POST['submitbutton'];
+
+if ($submitbutton){
+  $id = $_POST["astronaut_id"];
+  $name = $_POST["name"];
+  $no_missions = $_POST["no_missions"];
+
+
+  $sql = "INSERT INTO astronaut(astronaut_id, name, no_missions) VALUES ($id, '$name', $no_missions)";
+
+  if(!mysqli_query($connection, $sql)){
+      die("Error:".mysqli_error($connection));
+  }
+  else{
+      echo "Data Inserted";
+  }
+}
+?>
+
 <!doctype html>
 <html>
     <head>
-        <title>This Backend PHP Form</title>
+        <title>This is the Backend PHP Form</title>
         <style>
             body {
                 background-color: lightgrey;
