@@ -83,14 +83,14 @@ if ($submitbutton){
 
         <h1>The Missions form</h1>
           <!-- This is the form that I have created -->
-        <form action="" method="POST">
+        <form action="demo_backend.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>
         <div class= "form_destination">destination: <input type="text" name="destination"><br></div>
         <div class= "form_launch_date">launch_date: <input type="date" name="launch_date"><br></div>
         <div class= "form_type">type: <input type="text" name="type"><br></div>
         <div class= "form_crew_size">crew_size: <input type="number" name="crew_size"><br></div>
         <div class= "form_target_id">target_id: <input type="integer" name="target_id"><br></div>
-        <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
+         <div class= "sub_button"><input type="submit"></div>
         </form>
     </body>
 </html> 
