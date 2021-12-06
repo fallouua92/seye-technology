@@ -1,5 +1,6 @@
-body {
-  background-color: lightblue;
+body 
+#index{
+  background-color:  #80ff00;
 }
 
 h1 {
