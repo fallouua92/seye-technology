@@ -85,7 +85,7 @@ if ($submitbutton){
         </div>   
         <h1>This Attends form</h1>
           <!-- This is the form that I have created here  -->
-        <form action="" method="POST">
+        <form action="attends_form.php" method="POST">
         <div class= "form_mission_name">mission_name: <input type="text" name="name"><br></div>
         <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
          <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
