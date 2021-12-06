@@ -70,6 +70,9 @@ if ($submitbutton){
                   <a class="nav-link active" href="index.php">Home Page</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="targets_form.php">Targets form</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="astronaut_form.php">Astronaut form</a>
                 </li>
                 <li class="nav-item">
