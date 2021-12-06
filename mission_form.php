@@ -86,7 +86,7 @@ if ($submitbutton){
 
         <h1>The Missions form</h1>
           <!-- This is the form that I have created -->
-        <form action="demo_backend.php" method="POST">
+        <form action="mission_form.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>
         <div class= "form_destination">destination: <input type="text" name="destination"><br></div>
         <div class= "form_launch_date">launch_date: <input type="date" name="launch_date"><br></div>
