@@ -3,12 +3,16 @@ include "connection.php";
 $submitbutton= $_POST['submitbutton'];
 
 if ($submitbutton){
-  $id = $_POST["astronaut_id"];
+  
   $name = $_POST["name"];
-  $no_missions = $_POST["no_missions"];
+  $destination = $_POST["destination"];
+  $launch_date = $_POST["launch_date"];
+  $type = $_POST["type"];
+  $crew_size = $_POST["crew_size"];
+  $target_id = $_POST["target_id"];
 
 
-  $sql = "INSERT INTO mission(astronaut_id, name, no_missions) VALUES ($id, '$name', $no_missions)";
+  $sql = "INSERT INTO mission(name, destination, launch_date, type, crew_size, target_id) VALUES ($name, '$destination', $launch_date, $type, $crew_size, $target_id)";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
