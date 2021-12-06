@@ -4,7 +4,7 @@ $submitbutton= $_POST['submitbutton'];
 
 if ($submitbutton){
   
-
+  $name = $_POST["name"];
   $destination = $_POST["destination"];
   $launch_date = $_POST["launch_date"];
   $type = $_POST["type"];
@@ -12,7 +12,7 @@ if ($submitbutton){
   $target_id = $_POST["target_id"];
 
 
-  $sql = "INSERT INTO mission(, destination, launch_date, type, crew_size, target_id) VALUES ($name, '$destination', $launch_date, $type, $crew_size, $target_id)";
+  $sql = "INSERT INTO mission(name, destination, launch_date, type, crew_size, target_id) VALUES ($name, '$destination', $launch_date, $type, $crew_size, $target_id)";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
@@ -91,7 +91,7 @@ if ($submitbutton){
         <h1>The Missions form</h1>
           <!-- This is the form that I have created -->
         <form action="mission_form.php" method="POST">
-  
+        <div class= "form_name">Name: <input type="text" name="name"><br></div>
         <div class= "form_destination">destination: <input type="text" name="destination"><br></div>
         <div class= "form_launch_date">launch_date: <input type="date" name="launch_date"><br></div>
         <div class= "form_type">type: <input type="text" name="type"><br></div>
