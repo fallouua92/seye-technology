@@ -88,6 +88,7 @@ if ($submitbutton){
         <h1>The targets form</h1>
           <!-- This is the form that I have created for submiting details-->
         <form action="demo_backend.php" method="POST">
+        <div class= "form_first_mission">name: <input type="date" name="name"><br></div>   
         <div class= "form_first_mission">first_mission: <input type="date" name="first_mission"><br></div>
         <div class= "form_type">type: <input type="text" name="type"><br></div>
         <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
