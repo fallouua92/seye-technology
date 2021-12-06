@@ -64,7 +64,7 @@ if ($submitbutton){
         <div class="col-lg">
             <ul class="nav nav-tabs justify-content-center">
             <li class="nav-item">
-                  <a class="nav-link active" href="index.php">Home Page</a>
+                  <a class="nav-link " href="index.php">Home Page</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="targets_form.php">Targets form</a>
@@ -76,7 +76,7 @@ if ($submitbutton){
                   <a class="nav-link" href="astronaut_form.php">Astronaut form</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="attends_form.php">Attends form</a>
+                    <a class="nav-link active" href="attends_form.php">Attends form</a>
                   </li>
                 
               </ul>
