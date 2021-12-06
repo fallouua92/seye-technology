@@ -16,7 +16,7 @@
 <body>
     <!--I have used the div here with class row and column for the header of the page-->
     <div class="alert alert-info">
-      <strong>Let us know you agree to cookies!</strong> We use cookies to improve your experience on our Website. 
+      <strong>Let us know you agree to cookies!</strong> We need your consent to improve your experience on our Website. 
     </div>
     
     <div class="row">
