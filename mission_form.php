@@ -65,8 +65,11 @@ if ($submitbutton){
     <div class="row">
         <div class="col-lg">
             <ul class="nav nav-tabs justify-content-center">
-                <li class="nav-item">
+            <li class="nav-item">
                   <a class="nav-link active" href="index.php">Home Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="targets_form.php">Targets form</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="mission_form.php">Mission form</a>
@@ -77,9 +80,6 @@ if ($submitbutton){
                 <li class="nav-item">
                     <a class="nav-link" href="attends_form.php">Attends form</a>
                   </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="targets_form.php">Targets form</a>
-                </li>
                 
               </ul>
         </div>
