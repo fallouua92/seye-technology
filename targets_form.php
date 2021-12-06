@@ -3,14 +3,14 @@ include "connection.php";
 $submitbutton= $_POST['submitbutton'];
 
 if ($submitbutton){
-  $id = $_POST["id"];
+//   $id = $_POST["id"];
   $name= $_POST["name"];
   $first_mission = $_POST["first_mission"];
   $type= $_POST["type"];
   $no_missions = $_POST["no_missions"];
 
 
-  $sql = "INSERT INTO targets(id, name, first_mission, type, no_missions) VALUES ($id, '$name', $first_mission, '$type', $no_missions)";
+  $sql = "INSERT INTO targets(name, first_mission, type, no_missions) VALUES ('$name', $first_mission, '$type', $no_missions)";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
