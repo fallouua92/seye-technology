@@ -3,12 +3,11 @@ include "connection.php";
 $submitbutton= $_POST['submitbutton'];
 
 if ($submitbutton){
-  $id = $_POST["astronaut_id"];
   $name = $_POST["name"];
   $no_missions = $_POST["no_missions"];
 
 
-  $sql = "INSERT INTO astronaut(astronaut_id, name, no_missions) VALUES ($id, '$name', $no_missions)";
+  $sql = "INSERT INTO astronaut( name, no_missions) VALUES ( '$name', $no_missions)";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
@@ -86,7 +85,7 @@ if ($submitbutton){
         </div>  
         <h1>The Astronaut form</h1>
           <!-- This is the form that I have created to submit details -->
-        <form action="" method="POST">
+        <form action="astronaut_form.php" method="POST">
         <div class= "form_name">name: <input type="text" name="name"><br></div>
         <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
          <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
