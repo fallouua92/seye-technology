@@ -22,7 +22,7 @@ if ($submitbutton){
 <html>
     <head>
         <title>This Backend PHP Form</title>
-        <link href="CSS.css" type="tex/css" rel="stylesheet">
+        <link href="css.css" type="tex/css" rel="stylesheet">
         <body id="attends_form">
         <style>
             body {
