@@ -16,7 +16,7 @@
         <th>no_mission</th>
 </tr> 
 <?php
-$conn = mysqli_connect("localhost","admin","Fama2022#", "ua92backend");
+$conn = mysqli_connect("localhost","fallou","Fama2022#", "ua92backend");
 if ($conn ->connect_error) {
     die("connection faild:". $conn-> connect_error);
 }
