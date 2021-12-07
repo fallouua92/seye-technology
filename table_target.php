@@ -4,6 +4,15 @@
     
     <title>This is the database table</title>
 </head>
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        color: #ff6666;
+        font-family: monospace;
+        font-size: 25px;
+        text-align: letf;
+    }
 <body>
 
     <table> 
