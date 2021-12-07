@@ -25,8 +25,7 @@ $sql = "SELECT * FROM targets";
 $result = mysqli_query($conn, $sql);
 
 if (mysql_num_rows($result) > 0){
-
-while ($row = mysql_fetch_assoc($result)){
+while ($row = mysqli_fetch_assoc($result)){
     echo "<tr><td>" . $row["id"] . "</td><td>". $row["name"] . "<td><td>" . $row[ "first_mission"] . "</td><td>" . $row["type"] . "</td><td>" . $row["no_mission"] . "</td></td>";
 }    
 
