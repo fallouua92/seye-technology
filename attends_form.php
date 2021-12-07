@@ -22,8 +22,8 @@ if ($submitbutton){
 <html>
     <head>
         <title>This Backend PHP Form</title>
-        <link href="css.css" type="tex/css" rel="stylesheet">
-        <body id="attends_form">
+       
+        <body>
         <style>
             body {
                 background-color: lightgrey;

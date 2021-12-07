@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Block two</title>
-    <link href="css.css" type="text/css" rel="stylesheet">
     <!--This is my bootstrap with CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--This is my JavaScript link-->
@@ -13,7 +12,7 @@
 
   </head>
 
-<body id="php">
+<body >
     <!--I have used the div here with class row and column for the header of the page-->
     <div class="alert alert-info">
       <strong>Let us know you agree to cookies!</strong> We need your consent to improve your experience on our Website. 
