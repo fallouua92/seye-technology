@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </head>
-  <img src="backendDev.png" alt="backenDev" width="200" height="200">
+  
 
 <body >
   <body style="background-color: #33ffff"> </body>
@@ -46,4 +46,5 @@
                   </li>
                 
               </ul>
+              <img src="end.png" alt="end" width="200" height="200">
         </div>
