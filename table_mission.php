@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <table> 
+    <table width ="100px" border ="2px"> 
     
 <tr> 
         <th>mission_id</th>
