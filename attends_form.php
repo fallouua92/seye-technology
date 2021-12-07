@@ -24,6 +24,7 @@ if ($submitbutton){
         <title>This Backend PHP Form</title>
        
         <body>
+        <body style="background-color: #33ffff"> </body>
         <style>
             body {
                 background-color: lightgrey;
