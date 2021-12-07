@@ -22,7 +22,7 @@
 
 <body>
 
-    <table> 
+    <table width ="100px" border ="1px"> 
     
 <tr> 
         <th>id</th>
