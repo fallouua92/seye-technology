@@ -12,8 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </head>
-  <body id="php">
-<body>
+
+<body id="php">
     <!--I have used the div here with class row and column for the header of the page-->
     <div class="alert alert-info">
       <strong>Let us know you agree to cookies!</strong> We need your consent to improve your experience on our Website. 
