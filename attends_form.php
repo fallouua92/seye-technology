@@ -12,22 +12,13 @@ if ($submitbutton){
   $sql = "INSERT INTO attends(mission_id, astronaut_id) VALUES ('$mission_name', $id)";
   
 
-  if($connection->qyery ($sql) === TRUE){
-
-    $update =  "UPDATE mission SET crew_size = crew_size + 1 WHERE mission_id = $mission_id";
-    mysqli_query($connection, $update);
-
-   $update_astronaut_id =  "UPDATE astronaut SET no_missions = no_missions + 1 WHERE astronaut_id = $astronaut_id";
-    mysqli_query($connection, $update_astronaut_id);
-
-     
+  if(!mysqli_query($connection, $sql)){
+      die("Error:".mysqli_error($connection));
   }
   else{
-    die("Error:".mysqli_error($connection));
+      echo "Data Inserted";
   }
 }
-mysqli_colse($connection);
-
 ?>
 
 <!doctype html>
