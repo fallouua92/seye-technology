@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
+<title>This is the database table</title>
 <head>
-    
-    <title>This is the database table</title>
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        color: #ff6666;
+        font-family: monospace;
+        font-size: 25px;
+        text-align: letf;
+        border:2px solid #000;
+    }
+    th {
+        background-color: 	 #99ff33;
+        color: white;
+    }
+    th:nht-child(even) {background-color: #4d79ff;}
+    </style>
 </head>
 <body>
 
