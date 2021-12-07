@@ -46,5 +46,5 @@
                   </li>
                 
               </ul>
-              <img src="end.png" alt="end" width="200" height="200">
+             <center> <img src="end.png" alt="end" width="300" height="300"></center>
         </div>
