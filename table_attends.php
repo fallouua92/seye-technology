@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
+<title>This is the database table</title>
 <head>
-    
-    <title>This is the database table</title>
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        color: #ff6666;
+        font-family: monospace;
+        font-size: 25px;
+        text-align: letf;
+    }
+    th {
+        background-color: 	 #99ff33;
+        color: white;
+    }
+    th:nht-child(even) {background-color: #4d79ff;}
+    </style>
+   
 </head>
 <body>
 
-    <table> 
+    <table width ="100px" border ="2px"> 
     
 <tr> 
         <th>mission_id</th>
