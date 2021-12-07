@@ -26,7 +26,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysql_num_rows($result) > 0){
 while ($row = mysqli_fetch_assoc($result)){
-    echo "<tr><td>" . $row["id"] . "</td><td>". $row["Name"] . "<td><td>" . $row[ "first_mission"] . "</td><td>" . $row["type"] . "</td><td>" . $row["no_missions"] . "</td></td>";
+    echo "<tr><td>" . $row["id"] . "</td><td>". $row["Name"] . "</td><td>" . $row[ "first_mission"] . "</td><td>" . $row["type"] . "</td><td>" . $row["no_missions"] . "</td></tr>";
 }
 }
 else{
