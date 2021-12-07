@@ -10,12 +10,12 @@
     
 <tr> 
         <th>mission_id</th>
-        <th>Name</th>
-        <th>Destination</th>
+        <th>name</th>
+        <th>destination</th>
         <th>launch_date</th>
-        <th>Type</th>
-        <th>Crew_size</th>
-        <th>Target_id</th>
+        <th>type</th>
+        <th>crew_size</th>
+        <th>target_id</th>
 </tr> 
 <?php
 $conn = mysqli_connect("localhost","fallou","Fama2022#", "ua92backend");
@@ -28,7 +28,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0){
 while ($row = mysqli_fetch_assoc($result)){
-    echo "<tr><td>" . $row["mission_id"] . "</td><td>". $row["Name"] . "</td><td>" . $row[ "Destination"] . "</td><td>" . $row["Launch_date"] . "</td><td>" . $row["Type"] . "</td></tr>" $row["Crew_size"] . "</td></tr>" $row["Target_id"] . "</td><td>";
+    echo "<tr><td>" . $row["mission_id"] . "</td><td>". $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_date"] . "</td><td>" . $row["type"] . "</td></tr>" $row["crew_size"] . "</td></tr>" $row["target_id"] . "</td><td>";
 }
 }
 else{
