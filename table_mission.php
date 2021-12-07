@@ -12,7 +12,7 @@
         <th>mission_id</th>
         <th>name</th>
         <th>destination</th>
-        <th>launch_date</th>
+        <th>launch_data</th>
         <th>type</th>
         <th>crew_size</th>
         <th>target_id</th>
@@ -28,7 +28,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0){
 while ($row = mysqli_fetch_assoc($result)){
-    echo "<tr><td>" . $row["mission_id"] . "</td><td>". $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_date"] . "</td><td>" . $row["type"] . "</td></tr>" $row["crew_size"] . "</td></tr>" $row["target_id"] . "</td><td>";
+    echo "<tr><td>" . $row["mission_id"] . "</td><td>". $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_data"] . "</td><td>" . $row["type"] . "</td></tr>" $row["crew_size"] . "</td></tr>" $row["target_id"] . "</td><td>";
 }
 }
 else{
