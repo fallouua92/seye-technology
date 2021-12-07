@@ -5,8 +5,7 @@
     <title>This is the database table</title>
 </head>
 <body>
-    
-</body>
+
     <table> 
     
 <tr> 
@@ -37,5 +36,5 @@ else{
 
 ?>
     </table>
-
+</body>
 </html>
