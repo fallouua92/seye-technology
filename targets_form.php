@@ -10,7 +10,7 @@ if ($submitbutton){
   $no_missions = $_POST["no_missions"];
 
 
-  $sql = "INSERT INTO targets(name, first_mission, type, no_missions) VALUES ('$name', $first_mission, '$type', $no_missions)";
+  $sql = "INSERT INTO targets(name, first_mission, type, no_missions) VALUES ('$name', '$first_mission', '$type', $no_missions)";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));

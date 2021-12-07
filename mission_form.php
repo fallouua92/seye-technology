@@ -12,7 +12,7 @@ if ($submitbutton){
   $target_id = $_POST["target_id"];
 
 
-  $sql = "INSERT INTO mission(name, destination, launch_date, type, crew_size, target_id) VALUES ($name, '$destination', $launch_date, $type, $crew_size, $target_id)";
+  $sql = "INSERT INTO mission(name, destination, launch_date, type, crew_size, target_id) VALUES ('$name', '$destination', '$launch_date', '$type', '$crew_size', '$target_id')";
 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
