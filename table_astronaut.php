@@ -10,7 +10,6 @@
         font-family: monospace;
         font-size: 25px;
         text-align: letf;
-        border:2px solid #000;
     }
     th {
         background-color: 	 #99ff33;
@@ -21,7 +20,7 @@
 </head>
 <body>
 
-    <table> 
+    <table width ="100px" border ="2px"> 
     
 <tr> 
         <th>astronaut_id</th>
