@@ -16,12 +16,12 @@
         <th>no_mission</th>
 </th> 
 <?php
-$conn = mysqli_connect("localhost","admin","password", "Fama2022#");
+$conn = mysqli_connect("localhost","admin","Fama2022#", "ua92backend");
 if ($conn ->connect_error) {
     die("connection faild:". $conn-> connect_error);
 }
 
-$sql = "SELECT * FROM targest";
+$sql = "SELECT * FROM targets";
 $result = mysqli_query($conn, $sql);
 
 if (mysql_num_rows($result) > 0){
