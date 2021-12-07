@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
+<title>This is the database table</title>
 <head>
-    
-    <title>This is the database table</title>
-</head>
 <style type="text/css">
     table {
         border-collapse: collapse;
@@ -13,6 +11,15 @@
         font-size: 25px;
         text-align: letf;
     }
+    th {
+        background-color: 	 #99ff33;
+        color: white;
+    }
+    th:nht-child(even) {background-color: #4d79ff;}
+    </style>
+    
+</head>
+
 <body>
 
     <table> 
