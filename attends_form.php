@@ -25,6 +25,16 @@ if ($submitbutton){
   $set_mission_crew = "UPDATE mission SET crew_size=$crew_size WHERE mission_id=$mission_name";
   if(!mysqli_query($connection, $set_mission_crew)){
     die("Error:".mysqli_error($connection));
+
+
+    $get_no_mission = "SELECT * FROM astronaut WHERE astronaut_id=$id";
+  $query = mysqli_query($connection, $no_mission);
+  $result = mysqli_fetch_assoc($query);
+  $no_mission = $result['no_mission'];
+  $no_mission = $no_mission+1;
+  $set_mission_crew = "UPDATE astronaut SET no_mission=$no_mission WHERE astronaut_id=$id";
+  if(!mysqli_query($connection, $set_mission_crew)){
+    die("Error:".mysqli_error($connection));
   }
   else{
     echo "Data Inserted";
