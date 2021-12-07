@@ -30,3 +30,8 @@ while ($row = mysqli_fetch_assoc($result)){
 else{
     echo "0 results";
 }    
+ 
+?>
+    </table>
+</body>
+</html>
