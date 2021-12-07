@@ -32,8 +32,8 @@ if ($submitbutton){
   $result = mysqli_fetch_assoc($query);
   $no_mission = $result['no_mission'];
   $no_mission = $no_mission+1;
-  $set_mission_crew = "UPDATE astronaut SET no_mission=$no_mission WHERE astronaut_id=$id";
-  if(!mysqli_query($connection, $set_mission_crew)){
+  $set_mission_no = "UPDATE astronaut SET no_mission=$no_mission WHERE astronaut_id=$id";
+  if(!mysqli_query($connection, $set_mission_no)){
     die("Error:".mysqli_error($connection));
   }
   else{
