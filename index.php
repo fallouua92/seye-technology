@@ -47,5 +47,5 @@
                 
               </ul>
 
-             <center> <img src="phplogo.jpg" alt="phplogo" class="phplogo"></center>
+             <center> <img src="phplogo.jpg" alt="phplogo" class="phplogo" width="300" height="300"></center>
         </div>
