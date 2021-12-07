@@ -46,5 +46,6 @@
                   </li>
                 
               </ul>
-             <center> <img src="end.png" alt="end" width="300" height="300"></center>
+
+             <center> <img src="phplogo.jpg" alt="phplogo" class="phplogo"></center>
         </div>
