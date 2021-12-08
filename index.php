@@ -17,7 +17,7 @@
   <body style="background-color: #33ffff"> </body>
     <!--I have used the div here with class row and column for the header of the page-->
     <div class="alert alert-info">
-      <strong>Let us know you agree to cookies!</strong>We use cookies to improve your experience on our Website and for advertising. 
+      <strong>Let us know you agree to cookies!</strong>We use cookies to improve your experience on our Website. 
     </div>
   <!-- Another div with classe here to justify content-center-->
     <div class="row">
