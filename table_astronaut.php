@@ -2,6 +2,7 @@
 <html>
 <title>This is the database table</title>
 <head>
+    <!--CSS-->
 <style type="text/css">
     table {
         border-collapse: collapse;
@@ -21,7 +22,7 @@
 <body>
 
     <table width ="100px" border ="2px"> 
-    
+    <!-- This is the table that I have created for the astronaut page to display data from the database-->
 <tr> 
         <th>astronaut_id</th>
         <th>Name</th>
@@ -29,11 +30,12 @@
         
 </tr> 
 <?php
+// connect to the local host
 $conn = mysqli_connect("localhost","fallou","Fama2022#", "ua92backend");
 if ($conn ->connect_error) {
     die("connection faild:". $conn-> connect_error);
 }
-
+// select all from the astronaut table
 $sql = "SELECT * FROM astronaut";
 $result = mysqli_query($conn, $sql);
 

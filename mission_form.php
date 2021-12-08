@@ -13,7 +13,7 @@ if ($submitbutton){
 
 
   $sql = "INSERT INTO mission(name, destination, launch_date, type, crew_size, target_id) VALUES ('$name', '$destination', '$launch_date', '$type', '$crew_size', '$target_id')";
-
+// connection 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
   }
@@ -48,9 +48,9 @@ if ($submitbutton){
     </head>
     <body>
 
-    <!--This is my bootstrap with CSS link-->
+    <!--Bootstrap with CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--This is my JavaScript link-->
+    <!--JavaScript link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </head>
@@ -60,13 +60,13 @@ if ($submitbutton){
     <div class="alert alert-info">
       <strong>Let us know you agree to cookies!</strong> We use cookies to improve your experience on our Website. 
     </div>
-    
+    <!-- Another div with classe here-->
     <div class="row">
         <div class="col d-flex justify-content-center">
             <h1>This is the Backend development Website</h1>
     </div>
     <div>
-      <!--A navbar has been created here-->
+      <!--A navbar has been created here to justify content-center-->
     <div class="row">
         <div class="col-lg">
             <ul class="nav nav-tabs justify-content-center">
@@ -90,7 +90,7 @@ if ($submitbutton){
         </div>
 
         <h1>The Missions form</h1>
-          <!-- This is the form that I have created -->
+          <!-- This is the form that I have created for mission form-->
         <form action="mission_form.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>
         <div class= "form_destination">destination: <input type="text" name="destination"><br></div>

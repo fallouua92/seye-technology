@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Block two</title>
-    <!--This is my bootstrap with CSS link-->
+    <!--bootstrap with CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--This is my JavaScript link-->
+    <!--JavaScript link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </head>
@@ -17,9 +17,9 @@
   <body style="background-color: #33ffff"> </body>
     <!--I have used the div here with class row and column for the header of the page-->
     <div class="alert alert-info">
-      <strong>Let us know you agree to cookies!</strong> We need your consent to improve your experience on our Website. 
+      <strong>Let us know you agree to cookies!</strong>We use cookies to improve your experience on our Website and for advertising. 
     </div>
-    
+  <!-- Another div with classe here to justify content-center-->
     <div class="row">
         <div class="col d-flex justify-content-center">
             <h1>This is the Backend development Website</h1>
@@ -46,6 +46,6 @@
                   </li>
                 
               </ul>
-
+           <!-- Displaying a php logo here-->
              <center> <img src="phplogo.jpg" alt="phplogo" class="phplogo" width="200" height="200"></center>
         </div>

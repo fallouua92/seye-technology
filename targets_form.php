@@ -3,7 +3,6 @@ include "connection.php";
 $submitbutton= $_POST['submitbutton'];
 
 if ($submitbutton){
-//   $id = $_POST["id"];
   $name= $_POST["name"];
   $first_mission = $_POST["first_mission"];
   $type= $_POST["type"];
@@ -11,10 +10,11 @@ if ($submitbutton){
 
 
   $sql = "INSERT INTO targets(name, first_mission, type, no_missions) VALUES ('$name', '$first_mission', '$type', $no_missions)";
-
+// connection 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
   }
+  // echo to disply data inserted in the browser
   else{
       echo "Data Inserted";
   }
@@ -49,15 +49,15 @@ if ($submitbutton){
     <body style="background-color: #33ffff"> </body>
        <!--Bootstrap has been used here with CSS link-->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--This is a JavaScript link-->
+    <!--JavaScript link is created here-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </head>
-<body>
+<body> <!-- cookies information-->
     <div class="alert alert-info">
       <strong>Let us know you agree to cookies!</strong> We use cookies to improve your experience on our Website. 
     </div>
-    
+      <!-- Another div with classe here to justify content-center-->
     <div class="row">
         <div class="col d-flex justify-content-center">
             <h1>This is the Backend development Website </h1>
@@ -87,7 +87,7 @@ if ($submitbutton){
               </ul>
         </div>   
         <h1>The targets form</h1>
-          <!-- This is the form that I have created for submiting details-->
+          <!-- This is the form that I have created for submiting targets details-->
         <form action="targets_form.php" method="POST">
         <div class= "form_name">name: <input type="text" name="name"><br></div>   
         <div class= "form_first_mission">first_mission: <input type="date" name="first_mission"><br></div>

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--CSS-->
 <style type="text/css">
+
     table {
         border-collapse: collapse;
         width: 100%;
@@ -21,7 +23,7 @@
 <body>
 
     <table width ="100px" border ="2px"> 
-    
+     <!-- This is the table that I have created for the mission page to display data from the database-->
 <tr> 
         <th>mission_id</th>
         <th>name</th>
@@ -32,11 +34,12 @@
         <th>target_id</th>
 </tr> 
 <?php
+// connect to the local host
 $conn = mysqli_connect("localhost","fallou","Fama2022#", "ua92backend");
 if ($conn ->connect_error) {
     die("connection faild:". $conn-> connect_error);
 }
-
+// select all from the mission table
 $sql = "SELECT * FROM mission";
 $result = mysqli_query($conn, $sql);
 
