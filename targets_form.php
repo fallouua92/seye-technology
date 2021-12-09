@@ -95,5 +95,7 @@ if ($submitbutton){
         <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
         <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
         </form>
+        <center><a href="table_target.php"><button>Table Entry</button></a></center>
+
     </body>
 </html> 
