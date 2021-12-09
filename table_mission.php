@@ -45,7 +45,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0){
 while ($row = mysqli_fetch_assoc($result)){
-    echo "<tr><td>" . $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_data"] . "</td><td>" . $row["type"] .  $row["crew_size"] .  $row["target_id"] . "</td></tr>";
+    echo "<tr><td>" . $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_data"] . "</td><td>" . $row["type"] . "</td><td>" . $row["crew_size"] . "</td><td>" .  $row["target_id"] . "</td></tr>";
 }
 }
 else{
