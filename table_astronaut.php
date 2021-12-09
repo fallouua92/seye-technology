@@ -41,7 +41,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0){
 while ($row = mysqli_fetch_assoc($result)){
-    echo "<tr><td>" . $row["astronaut_id"] . "</td><td>". $row["Name"] . "</td><td>" . $row[ "no_missiona"] . "</td><td>" ;
+    echo "<tr><td>" . $row["astronaut_id"] . "</td><td>". $row["Name"] . "</td><td>" . $row[ "no_missions"] . "</td><td>" ;
 }
 }
 else{
