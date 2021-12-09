@@ -60,8 +60,8 @@ if ($submitbutton){
     <div class="row">
         <div class="col d-flex justify-content-center">
             <h1>This is the Backend development Website</h1>
+        </div>
     </div>
-          </div>
        <!--A navbar has been created here-->
     <div class="row">
         <div class="col-lg">
@@ -81,12 +81,10 @@ if ($submitbutton){
                 <li class="nav-item">
                     <a class="nav-link" href="attends_form.php">Attends form</a>
                   </li>
-                
               </ul>
         </div>  
        </div>
-
-
+       
         <h1>The Mission form</h1>
           <!-- This is the form that I have created for mission form-->
         <form action="mission_form.php" method="POST">
