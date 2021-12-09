@@ -8,7 +8,7 @@ if ($submitbutton){
   $launch = $_POST["launch_date"];
   $type = $_POST["type"];
   $crew = $_POST["crew_size"];
-  $target = $_POST["target_id";]
+  $target = $_POST["target_id"];
 
 
   $sql = "INSERT INTO mission( name, destination, launch_data, type, crew_size, target_id) VALUES ( '$name', '$destination', '$launch', '$type', '$crew', '$target
