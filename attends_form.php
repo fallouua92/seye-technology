@@ -17,7 +17,7 @@ if ($submitbutton){
   else{
       echo "Data Inserted";
   }
-
+// Select all from the mission table
   $get_mission_crew = "SELECT * FROM mission WHERE mission_id=$mission_name";
   $query = mysqli_query($connection, $get_mission_crew);
   $result = mysqli_fetch_assoc($query);
@@ -31,7 +31,7 @@ if ($submitbutton){
   else{
     echo "Data Inserted";
   }
-
+// Select all from the astronaut table
   $get_mission_no = "SELECT * FROM astronaut WHERE astronaut_id=$id";
   $query = mysqli_query($connection, $get_mission_no);
   $result2 = mysqli_fetch_assoc($query);
@@ -52,7 +52,7 @@ if ($submitbutton){
 <!doctype html>
 <html>
     <head>
-        <title>This Backend PHP Form</title>
+        <title>This Backend Website</title>
        
         <body>
         <body style="background-color: #33ffff"> </body>

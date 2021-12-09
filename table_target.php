@@ -23,7 +23,8 @@
 <body>
 
     <table width ="100px" border ="2px"> 
-    
+
+ <!-- This is the table that has been created to display data from the database using HTML table -->  
 <tr> 
         <th>id</th>
         <th>name</th>
@@ -32,6 +33,7 @@
         <th>no_mission</th>
 </tr> 
 <?php
+// connection
 $conn = mysqli_connect("localhost","fallou","Fama2022#", "ua92backend");
 if ($conn ->connect_error) {
     die("connection faild:". $conn-> connect_error);

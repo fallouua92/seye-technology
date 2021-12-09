@@ -1,4 +1,5 @@
 <?php
+// connection & submibutton
 include "connection.php";
 $submitbutton= $_POST['submitbutton'];
 
@@ -25,7 +26,7 @@ if ($submitbutton){
 <!doctype html>
 <html>
     <head>
-        <title>This is the Backend </title>
+        <title>This is the Backend Website</title>
         <style>
             body {
                 background-color: lightgrey;

@@ -89,7 +89,7 @@ if ($submitbutton){
               </ul>
         </div>
 
-        <h1>The Missions form</h1>
+        <h1>The Mission form</h1>
           <!-- This is the form that I have created for mission form-->
         <form action="mission_form.php" method="POST">
         <div class= "form_name">Name: <input type="text" name="name"><br></div>

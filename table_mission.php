@@ -34,7 +34,7 @@
         <th>target_id</th>
 </tr> 
 <?php
-// connect to the local host
+// connect to the database
 $conn = mysqli_connect("localhost","fallou","Fama2022#", "ua92backend");
 if ($conn ->connect_error) {
     die("connection faild:". $conn-> connect_error);

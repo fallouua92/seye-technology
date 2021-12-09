@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>This is the database table</title>
+<title>The database table</title>
 <head>
         <!--CSS-->
 <style type="text/css">

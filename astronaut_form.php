@@ -8,10 +8,11 @@ if ($submitbutton){
 
 
   $sql = "INSERT INTO astronaut( name, no_missions) VALUES ( '$name', $no_missions)";
-
+// connection 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
   }
+  // echo to display data inseted in the browser
   else{
       echo "Data Inserted";
   }
@@ -21,7 +22,7 @@ if ($submitbutton){
 <!doctype html>
 <html>
     <head>
-        <title>This is the Backend Form</title>
+        <title>This is the Backend Website</title>
         <style>
             body {
                 background-color: lightgrey;
