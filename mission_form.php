@@ -11,7 +11,8 @@ if ($submitbutton){
   $target = $_POST["target_id";]
 
 
-  $sql = "INSERT INTO mission( name, destination, launch_data, type, crew_size, target_id) VALUES ( '$name', '$destination', '$launch', '$type', '$crew', '$target')";
+  $sql = "INSERT INTO mission( name, destination, launch_data, type, crew_size, target_id) VALUES ( '$name', '$destination', '$launch', '$type', '$crew', '$target
+  ')";
 // connection 
   if(!mysqli_query($connection, $sql)){
       die("Error:".mysqli_error($connection));
@@ -45,16 +46,11 @@ if ($submitbutton){
                 padding: 
             }
         </style>
-    </head>
-    <body>
-    <body style="background-color: #33ffff"> </body>
-
-   <!--This is my bootstrap with CSS link-->
+        <!--This is my bootstrap with CSS link-->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--This is my JavaScript link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-  </head>
+    </head>
 <body>
     <!--I have used the div here with class row and column for the header of the page-->
     <div class="alert alert-info">
@@ -65,7 +61,7 @@ if ($submitbutton){
         <div class="col d-flex justify-content-center">
             <h1>This is the Backend development Website</h1>
     </div>
-    <div>
+          </div>
        <!--A navbar has been created here-->
     <div class="row">
         <div class="col-lg">
@@ -87,8 +83,8 @@ if ($submitbutton){
                   </li>
                 
               </ul>
-            
         </div>  
+       </div>
 
 
         <h1>The Mission form</h1>
