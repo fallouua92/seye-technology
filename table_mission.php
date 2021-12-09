@@ -25,7 +25,7 @@
     <table width ="100px" border ="2px"> 
      <!-- This is the table that I have created for the mission page to display data from the database-->
 <tr> 
-        <th>mission_id</th>
+        
         <th>name</th>
         <th>destination</th>
         <th>launch_data</th>
@@ -45,7 +45,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0){
 while ($row = mysqli_fetch_assoc($result)){
-    echo "<tr><td>" . $row["mission_id"] . "</td><td>". $row["Name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_data"] . "</td><td>" . $row["type"] .  $row["crew_size"] .  $row["target_id"] . "</td></tr>";
+    echo "<tr><td>" . $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_data"] . "</td><td>" . $row["type"] .  $row["crew_size"] .  $row["target_id"] . "</td></tr>";
 }
 }
 else{
