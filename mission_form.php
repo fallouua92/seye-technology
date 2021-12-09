@@ -2,6 +2,7 @@
 include "connection.php";
 $submitbutton= $_POST['submitbutton'];
 
+
 if ($submitbutton){
   
   $name = $_POST["name"];
@@ -98,7 +99,7 @@ if ($submitbutton){
         <div class= "form_type">type: <input type="text" name="type"><br></div>
         <div class= "form_crew_size">crew_size: <input type="number" name="crew_size"><br></div>
         <div class= "form_target_id">target_id: <input type="integer" name="target_id"><br></div>
-         <div class= "sub_button"><input type="submit"></div>
+        <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
         </form>
         <center><a href="table_mission.php"><button>Table Entry</button></a></center>
     </body>
