@@ -122,5 +122,6 @@ if ($submitbutton){
         <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
          <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
         </form>
+        <center><a href="table_attends.php"><button>Table Entry</button></a></center>
     </body>
 </html> 

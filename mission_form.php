@@ -100,5 +100,6 @@ if ($submitbutton){
         <div class= "form_target_id">target_id: <input type="integer" name="target_id"><br></div>
          <div class= "sub_button"><input type="submit"></div>
         </form>
+        <center><a href="table_mission.php"><button>Table Entry</button></a></center>
     </body>
 </html> 
