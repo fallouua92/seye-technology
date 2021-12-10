@@ -50,6 +50,6 @@ else{
 
 ?>
     </table>
-    <center><a href="astronautS_form.php"><button>Return</button></a></center>
+    <center><a href="astronaut_form.php"><button>Return</button></a></center>
 </body>
 </html>
