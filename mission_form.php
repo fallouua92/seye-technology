@@ -73,10 +73,10 @@ if ($submitbutton){
                   <a class="nav-link" href="targets_form.php">Targets form</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="mission_form.php">Mission form</a>
+                    <a class="nav-link active" href="mission_form.php">Mission form</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="astronaut_form.php">Astronaut form</a>
+                  <a class="nav-link " href="astronaut_form.php">Astronaut form</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="attends_form.php">Attends form</a>
