@@ -54,5 +54,6 @@ else{
 
 ?>
     </table>
+    <center><a href="targets_form.php"><button>Show table</button></a></center>
 </body>
 </html>
