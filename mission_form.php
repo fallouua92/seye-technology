@@ -89,12 +89,12 @@ if ($submitbutton){
         <h1>The Mission form</h1>
           <!-- This is the form that I have created for mission form-->
         <form action="mission_form.php" method="POST">
-        <div class= "form_name">Name: <input type="text" name="name"><br></div>
-        <div class= "form_destination">destination: <input type="text" name="destination"><br></div>
-        <div class= "form_launch_date">launch_date: <input type="date" name="launch_date"><br></div>
-        <div class= "form_type">type: <input type="text" name="type"><br></div>
-        <div class= "form_crew_size">crew_size: <input type="number" name="crew_size"><br></div>
-        <div class= "form_target_id">target_id: <input type="integer" name="target_id"><br></div>
+        <div class= "form_name">Name: <input type="text" name="name" required><br></div>
+        <div class= "form_destination">destination: <input type="text" name="destination" required><br></div>
+        <div class= "form_launch_date">launch_date: <input type="date" name="launch_date" required><br></div>
+        <div class= "form_type">type: <input type="text" name="type" required><br></div>
+        <div class= "form_crew_size">crew_size: <input type="number" name="crew_size" required><br></div>
+        <div class= "form_target_id">target_id: <input type="integer" name="target_id" required><br></div>
         <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
         </form>
         <center><a href="table_mission.php"><button>Table Entry</button></a></center>

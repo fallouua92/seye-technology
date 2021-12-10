@@ -90,10 +90,10 @@ if ($submitbutton){
         <h1>The targets form</h1>
           <!-- This is the form that I have created for submiting targets details-->
         <form action="targets_form.php" method="POST">
-        <div class= "form_name">name: <input type="text" name="name"><br></div>   
-        <div class= "form_first_mission">first_mission: <input type="date" name="first_mission"><br></div>
-        <div class= "form_type">type: <input type="text" name="type"><br></div>
-        <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions"><br></div>
+        <div class= "form_name">name: <input type="text" name="name" required><br></div>   
+        <div class= "form_first_mission">first_mission: <input type="date" name="first_mission" required><br></div>
+        <div class= "form_type">type: <input type="text" name="type" required><br></div>
+        <div class= "form_no_missions">no_missions: <input type="integer" name="no_missions" required><br></div>
         <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
         </form>
         <center><a href="table_target.php"><button>Table Entry</button></a></center>

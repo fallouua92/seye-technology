@@ -118,9 +118,9 @@ if ($submitbutton){
         <h1>This Attends form</h1>
            <!-- This is the form that I have created for attends form-->
         <form action="attends_form.php" method="POST">
-        <div class= "form_mission_name">mission Id: <input type="Integer" name="name"><br></div>
-        <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"><br></div>
-         <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit"/></div>
+        <div class= "form_mission_name">mission Id: <input type="Integer" name="name" required><br></div>
+        <div class= "form_astronaut_id">astronaut_id: <input type="integer" name="astronaut_id"required><br></div>
+         <div class= "sub_button"><input type="submit" name="submitbutton" value="Submit" required></div>
         </form>
         <center><a href="table_attends.php"><button>Table Entry</button></a></center>
     </body>
